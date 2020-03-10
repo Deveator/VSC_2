@@ -1,0 +1,8 @@
+{
+  "defaultCommandTimeout": 10000,
+  "pageLoadTimeout": 80000,
+  "env": {
+    "loginUrl": "https://test-5-16-32-2.ladesk.com/agent/index.php#login"
+  },
+  "projectId": "3ng2i9"
+}

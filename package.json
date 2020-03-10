@@ -1,0 +1,19 @@
+{
+  "name": "aotomation_at",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress_run": "./node_modules/.bin/cypress run",
+    "cypress_open": "./node_modules/.bin/cypress open",
+    "cypress_run_fw": "npm run cypress_run -- --spec 'cypress/integration/AT_Framework_Folder/*' --headed"
+  },
+  "author": "AndT",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.0.1",
+    "mocha": "^7.1.0",
+    "mochawesome": "^5.0.0"
+  },
+  "dependencies": {},
+  "description": ""
+}

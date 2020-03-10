@@ -1,5 +1,8 @@
 class LoginPage{
 
+    getUsernameString(){
+        return cy.get("input[name='username']");
+    }
 
     
 
